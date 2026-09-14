@@ -100,3 +100,9 @@ def analyze_crypto(message):
 
 if __name__ == "__main__":
     bot.infinity_polling()
+if __name__ == "__main__":
+    if not TELEGRAM_TOKEN or not OPENAI_API_KEY:
+        print("❌ HATA: TELEGRAM_TOKEN veya OPENAI_API_KEY Render Environment alanında tanımlı değil!")
+    else:
+        print("🚀 Bot başarıyla başlatıldı ve dinlemeye geçti...")
+        bot.infinity_polling()
