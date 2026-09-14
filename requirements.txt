@@ -1,6 +1,5 @@
 pyTelegramBotAPI
 ccxt
 pandas
-pandas-ta
 openai
 flask
